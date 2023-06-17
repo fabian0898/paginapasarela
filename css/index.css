@@ -1,0 +1,189 @@
+        * {
+        margin: 0%;
+        padding: 0%;
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    .uno {
+        background-color: #A6032F;
+    }
+    
+    
+    
+   
+    
+    #movi {
+        transition: transform .2s;
+    }
+    
+    #movi:hover {
+        transform: scale(1.1);
+    }
+    
+    #productos {
+        
+        text-align: center;
+       background-image: url(../img/5004793.jpg);
+       background-attachment: fixed;
+       margin-bottom: 40PX;
+        width: 100%;
+    }
+
+    #promociones {
+        
+        text-align: center;
+       background-color: white;
+       background-attachment: fixed;
+       margin-bottom: 50PX;
+        width: 100%;
+    }
+
+    .prod{
+        background-color: #A6032F;
+        height: 100px;
+        
+    }
+
+    .prom{
+        margin-top: 100px;
+        padding: 50px;
+    }
+    .titulo{
+        font-family: melo;
+        color: white;
+        
+        width: 100%;
+        
+
+        font-size: clamp(2.375rem, -1.3438rem + 8.5vw, 3.4375rem);
+
+    }
+
+    font-size: 350%;
+    .letra{
+        text-decoration:underline;
+    }
+    @font-face{
+        font-family: melo;
+        src: url(../fonts/white_dream/WhiteDream.otf);
+    }
+
+    #slide{
+        display: flex;
+        justify-content: space-between;
+    }
+    .promo{
+        
+        color: black;
+        
+        padding: 3px;
+    }
+
+    .precio{
+        font-size: 200%;
+        color:black;
+        font-weight: 900;
+
+    }
+
+    .opcion{
+        background-color: #A6032F;
+        color: white;
+        width: 93px;
+        
+        border-radius: 5px;
+
+        
+    }
+   
+
+    .whatsapp{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+
+    }
+
+
+    #footer{
+        
+        background-color:#A6032F;
+        height: auto;
+        width: 100%;
+        color: aliceblue;
+        margin: 0%;
+
+    }
+
+    #footer p{
+        margin-top: 10px;
+    }
+
+    #footer img{
+        height: 40px;
+        width: 40px;
+        margin: 3px;
+        margin-bottom: 10px;
+    }
+
+    #what :hover {
+        transform: scale(1.1);
+        
+    }
+
+    #btn-mas{
+        display: none;
+        
+
+    }
+    .container{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 80px;       
+
+    }
+
+    .redes a, .icon-plus{
+        display: block;
+        text-decoration: none;
+        background-color:#ff0044;
+        color: white;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        text-align: center;
+        border-radius: 50%;
+        box-shadow: opx 1px 10px rgba(0, 0, 0, 4);
+        transition: all 500ms ease ;
+        
+    }
+
+    .redes a:hover{
+        background: white;
+        color: #ff0044;
+    }
+    .redes a{
+        margin-bottom: -15px;
+        opacity: 0;
+        visibility: hidden;
+
+    }
+    #btn-mas:checked~ .redes a{
+        margin-bottom: 10px;
+        opacity: 1;
+        visibility: visible;
+
+    }
+    .icon-plus{
+        cursor: pointer;
+        background:#f83267;
+        font-size: 23px;
+    }
+
+    #btn-mas:checked~ .btn-mas .icon-plus{
+        transform: rotate(137deg);
+        font-size: 25px;
+    }

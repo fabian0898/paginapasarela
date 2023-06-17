@@ -1,0 +1,290 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.uno {
+    background-color: #A6032F;
+    display:flex ;
+    
+}
+#dos{
+    justify-content: space-around;
+}
+.encaje{
+   margin-top: 100px;
+    height: 200px;
+}
+.titulo{
+    font-family: melo;
+    color:black;
+    width: 100%;
+    font-size:450%;
+    margin-top: 50px;
+
+}
+.letra {
+    text-decoration:underline;
+    
+    font-size: 200%;    
+}
+@font-face{
+    font-family: melo;
+    src: url(../fonts/white_dream/WhiteDream.otf);
+}
+
+#enca {
+    transition: transform .2s;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#carta{
+    
+    width: auto;
+    text-align: center;
+    margin-top: 100px;
+   
+
+}
+#carta img{
+    margin:0%;
+}
+#carta p{
+    margin:0;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.precioo{
+
+    color: #A6032F;
+    font-size: 200%;
+    font-weight: 900;
+
+}
+.boton{
+    background-color: #A6032F;
+    color: aliceblue;
+    width: 200px;
+    padding: 2px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+#slide{
+    display: flex;
+    justify-content: space-between;
+}
+.promo{
+    
+    color: black;
+    
+    padding: 3px;
+}
+
+.precio{
+    font-size: 200%;
+    color:black;
+    font-weight: 900;
+
+}
+#opcion{
+text-align: center;
+align-items: center;
+
+}
+
+.opcion{
+    background-color: #A6032F;
+    color: white;
+    width: 93px;
+    
+    border-radius: 5px;
+}
+
+
+
+#what :hover {
+    transform: scale(1.1);
+    
+}
+.whatsapp{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    
+    
+}
+
+
+
+
+
+#footer{
+        
+    background-color:#A6032F;
+    height: auto;
+    width: 100%;
+    color: aliceblue;
+    margin: 0%;
+
+}
+
+#footer p{
+    margin-top: 10px;
+}
+
+#footer img{
+    height: 40px;
+    width: 40px;
+    margin: 3px;
+    margin-bottom: 10px;
+}
+
+
+#btn-mas{
+    display: none;
+
+}
+.containe{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 80px; 
+}
+
+
+.redes a, .icon-plus{
+    display: block;
+    text-decoration: none;
+    background-color:#ff0044;
+    color: white;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: opx 1px 10px rgba(0, 0, 0, 4);
+    transition: all 500ms ease ;
+    
+}
+
+.redes a:hover{
+    background: white;
+    color: #ff0044;
+}
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+
+}
+#btn-mas:checked~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+
+}
+.icon-plus{
+    cursor: pointer;
+    background:#f83267;
+    font-size: 23px;
+}
+
+#btn-mas:checked~ .btn-mas .icon-plus{
+    transform: rotate(137deg);
+    font-size: 25px;
+}
+
+
+.caja{
+    outline: thick double black;
+    background-color: rgb(255, 200, 200);
+   
+}
+
+.vermas{
+    color: aliceblue;
+    background-color: #A6032F;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 150px;
+    transition: transform .2s;
+    padding: 2px;
+
+}
+.vermas a:hover{
+    transform: scale(1.1);
+    color: #A6032F;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 150px;
+    outline: auto;
+}
+.pre{
+    padding: 10px;
+}
+
+#btn-mas{
+    display: none;
+
+}
+.container{
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    
+
+}
+
+.redes a, .icon-plus{
+    display: block;
+    text-decoration: none;
+    background-color:#ff0044;
+    color: white;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: opx 1px 10px rgba(0, 0, 0, 4);
+    transition: all 500ms ease ;
+    
+}
+
+.redes a:hover{
+    background: white;
+    color: #ff0044;
+}
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+
+}
+#btn-mas:checked~ .redes a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+
+}
+.icon-plus{
+    cursor: pointer;
+    background:#f83267;
+    font-size: 23px;
+}
+
+#btn-mas:checked~ .btn-mas .icon-plus{
+    transform: rotate(137deg);
+    font-size: 25px;
+}
